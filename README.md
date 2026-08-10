@@ -2,7 +2,10 @@
 
 [![ZeroClaw Commerce 5-Minute Video Demo](https://img.youtube.com/vi/E2j8Qy2fRNQ/maxresdefault.jpg)](https://youtu.be/E2j8Qy2fRNQ)
 
-> 🎬 **Submission Video Demo (5 min):** [Watch on YouTube (https://youtu.be/E2j8Qy2fRNQ)](https://youtu.be/E2j8Qy2fRNQ) | [Local MP4 File (`docs/Zeroclaw_video_voiceover.mp4`)](docs/Zeroclaw_video_voiceover.mp4) | [Build Log on X](https://x.com/i/status/2085312927008194732)
+> 🎬 **Submission Video Demo (5 min):** [Watch on YouTube (https://youtu.be/E2j8Qy2fRNQ)](https://youtu.be/E2j8Qy2fRNQ) |
+
+[Build Log on X]
+(https://x.com/i/status/2085312927008194732)
 
 **Showcase Post — Build Solana-native plugins for Zeroclaw**  
 **Author:** @thepros2014  
