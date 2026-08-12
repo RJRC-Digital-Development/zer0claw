@@ -1,8 +1,8 @@
-# ZeroClaw Commerce: A Solana Payment Terminal I Actually Run on Telegram 🇧🇷
+# ZeroClaw Commerce: A Solana Payment Terminal I Actually Run on Telegram 
 
 [![ZeroClaw Commerce 5-Minute Video Demo](https://img.youtube.com/vi/E2j8Qy2fRNQ/maxresdefault.jpg)](https://youtu.be/E2j8Qy2fRNQ)
 
-> 🎬 **Submission Video Demo (5 min):** [Watch on YouTube (https://youtu.be/E2j8Qy2fRNQ)](https://youtu.be/E2j8Qy2fRNQ) |
+>  **Submission Video Demo (5 min):** [Watch on YouTube (https://youtu.be/E2j8Qy2fRNQ)](https://youtu.be/E2j8Qy2fRNQ) |
 
 [Build Log on X]
 (https://x.com/i/status/2085312927008194732)
@@ -24,7 +24,7 @@ Welcome to **ZeroClaw Commerce** — the zero-key payment, tax accounting, conve
 
 ---
 
-## 🎯 The Use Case
+##  The Use Case
 
 I sell digital goods — eBooks, API keys, Notion templates — through a **Telegram bot**. Before this, I manually sent payment links, checked wallets for confirmation, then DMed the file. Ten minutes per sale. I lost buyers to friction.
 
@@ -34,24 +34,24 @@ Now a customer DMs the shop bot on Telegram, says *"I want to buy the eBook"*, a
 
 ---
 
-## ✨ Key Features & Capability Matrix
+## Key Features & Capability Matrix
 
 | Feature | Description |
 | :--- | :--- |
-| **🤖 Telegram Natural Speech NLU AI Cashier** | Flagship Telegram conversational cashier (`"I want to buy the eBook"`), auto-matching SKUs and launching zero-key Solana Pay invoices directly inside Telegram chat. |
-| **📬 Private Merchant Inbox (5s Auto-Sync)** | Real-time buyer feedback & concern collection from Telegram with 5-second automatic dashboard polling and `Mark Reviewed` resolution actions. |
-| **🌐 Universal 100% Wallet Compatibility** | Rendered Solana Pay URIs & QR Codes work with Phantom, Solflare, Backpack, Coinbase, Trust Wallet, Exodus, Ultimate, Brave, OKX, Ledger & ALL Solana wallets. |
-| **📷 In-Chat Solana Pay QR Code Photos** | Renders 300x300 high-resolution Solana Pay QR Code image photos directly in Telegram chats and dashboard checkout modals. |
-| **📦 Storefront Inventory Stock Editor** | Manage product titles, SKUs, prices, stock quantities, and descriptions directly from the dashboard behind 6-Digit Admin PIN protection. |
-| **🔒 6-Digit Security PIN & Employee RBAC** | Restrict privileged tax exports & storefront edits with a 6-digit keypad modal. Supports `Store Admin` and restricted `Cashier/Staff` roles. |
-| **⚙️ First-Time Merchant Setup Wizard** | Interactive `/setup` onboarding focusing on Telegram bot token configuration with per-channel `⚙️ Configure Now` vs `⏭️ Skip for Later` controls, saved to persistent `config.json`. |
-| **🧾 Dual IRS ($USD) & Receita Federal (R$BRL) Tax Ledger** | Real-time cost-basis tax logging with automated Form 8949 compliance and CSV ledger exports. |
-| **🛡️ Tier 1 Zero-Key Custody Architecture** | Bot and agent hold **ZERO private keys**. Transactions are proposed via Solana Pay and signed on consumer mobile devices. |
-| **🖱️ Automagic Master All-In-One Launcher** | Double-click `Start_ZeroClaw_Commerce.cmd` to start gateway, provision Telegram bot venv, and open `/dashboard` or `/setup` automatically. |
+| ** Telegram Natural Speech NLU AI Cashier** | Flagship Telegram conversational cashier (`"I want to buy the eBook"`), auto-matching SKUs and launching zero-key Solana Pay invoices directly inside Telegram chat. |
+| ** Private Merchant Inbox (5s Auto-Sync)** | Real-time buyer feedback & concern collection from Telegram with 5-second automatic dashboard polling and `Mark Reviewed` resolution actions. |
+| ** Universal 100% Wallet Compatibility** | Rendered Solana Pay URIs & QR Codes work with Phantom, Solflare, Backpack, Coinbase, Trust Wallet, Exodus, Ultimate, Brave, OKX, Ledger & ALL Solana wallets. |
+| ** In-Chat Solana Pay QR Code Photos** | Renders 300x300 high-resolution Solana Pay QR Code image photos directly in Telegram chats and dashboard checkout modals. |
+| ** Storefront Inventory Stock Editor** | Manage product titles, SKUs, prices, stock quantities, and descriptions directly from the dashboard behind 6-Digit Admin PIN protection. |
+| ** 6-Digit Security PIN & Employee RBAC** | Restrict privileged tax exports & storefront edits with a 6-digit keypad modal. Supports `Store Admin` and restricted `Cashier/Staff` roles. |
+| ** First-Time Merchant Setup Wizard** | Interactive `/setup` onboarding focusing on Telegram bot token configuration with per-channel ` Configure Now` vs ` Skip for Later` controls, saved to persistent `config.json`. |
+| ** Dual IRS ($USD) & Receita Federal (R$BRL) Tax Ledger** | Real-time cost-basis tax logging with automated Form 8949 compliance and CSV ledger exports. |
+| ** Tier 1 Zero-Key Custody Architecture** | Bot and agent hold **ZERO private keys**. Transactions are proposed via Solana Pay and signed on consumer mobile devices. |
+| ** Automagic Master All-In-One Launcher** | Double-click `Start_ZeroClaw_Commerce.cmd` to start gateway, provision Telegram bot venv, and open `/dashboard` or `/setup` automatically. |
 
 ---
 
-## 🎬 What the Video Shows (3 min, terminal + phone)
+##  What the Video Shows (3 min, terminal + phone)
 
 No slides. No mock UI. Real agent, real channel, real USDC on devnet.
 
@@ -64,7 +64,7 @@ No slides. No mock UI. Real agent, real channel, real USDC on devnet.
 
 ---
 
-## 🏗️ Architecture & Tier Honesty
+##  Architecture & Tier Honesty
 
 We built **only what needs to be in WASM**. Everything else is a Tier 1 skill. Correct layering is intentional — a tier 1 solution to a tier 1 problem beats unnecessary compiled code.
 
@@ -98,7 +98,7 @@ What it does:
 
 ---
 
-## 🛡️ Custody Tier: T1 (Proposer-Only)
+##  Custody Tier: T1 (Proposer-Only)
 
 **Secrets held by agent:** ZERO.  
 **Secrets held by server:** ZERO.  
@@ -120,7 +120,7 @@ A Solana Pay URI has been generated.
 SOP approval requires human authorization."
 
 [Dashboard — SOP checkpoint]
-⏸️ PENDING: Refund 500 USDC → attacker_wallet_XYZ
+ PENDING: Refund 500 USDC → attacker_wallet_XYZ
 [APPROVE] [REJECT]
 
 [Operator action]
@@ -135,7 +135,7 @@ and clicks REJECT.
 
 ---
 
-## 📂 Repository Directory Structure
+##  Repository Directory Structure
 
 ```text
 zer0claw/
@@ -174,7 +174,7 @@ zer0claw/
 
 ---
 
-## 🔧 Handling Blockhash Expiry (The Structural Problem)
+##  Handling Blockhash Expiry (The Structural Problem)
 
 The bounty calls this out: *"A transaction waits in an approval queue while the human is at lunch; ~90 seconds later its blockhash is dead."*
 
@@ -189,7 +189,7 @@ The bounty calls this out: *"A transaction waits in an approval queue while the 
 
 ---
 
-## 🇧🇷 Brazil-First: PIX + USDC Reconciliation
+##  Brazil-First: PIX + USDC Reconciliation
 
 My customers often ask *"Posso pagar no PIX?"* We built a hybrid flow:
 
@@ -203,7 +203,7 @@ My customers often ask *"Posso pagar no PIX?"* We built a hybrid flow:
 
 ---
 
-## 💬 Telegram NLU AI Cashier Commands (Primary Channel Focus)
+##  Telegram NLU AI Cashier Commands (Primary Channel Focus)
 
 Buyers interact directly with the primary Telegram storefront bot using slash commands or natural language speech:
 
@@ -217,7 +217,7 @@ Buyers interact directly with the primary Telegram storefront bot using slash co
 
 ---
 
-## 🧪 Reproducibility: Set It Up in an Evening
+##  Reproducibility: Set It Up in an Evening
 
 ```bash
 # 1. Clone & build host (Tier 3 plugin path)
@@ -247,7 +247,7 @@ Dependencies: Rust toolchain, Python 3.11+, uvicorn. One evening. Verified on Wi
 
 ---
 
-## 🛠️ What We Built vs. What ZeroClaw Already Did
+## What We Built vs. What ZeroClaw Already Did
 
 | We Built | ZeroClaw Provided |
 |---|---|
@@ -259,31 +259,31 @@ Dependencies: Rust toolchain, Python 3.11+, uvicorn. One evening. Verified on Wi
 
 ---
 
-## 📊 Judging Criteria Self-Assessment
+##  Judging Criteria Self-Assessment
 
 | Criterion | Score | Evidence |
 |---|---|---|
-| Use case (30%) | ✅ Running daily | I sell digital goods through Telegram. Real Telegram shop. |
-| Safety & custody (25%) | ✅ T1, fail-closed, 3 guards | Prompt injection transcript, policy-as-code, SOP checkpoints |
-| Craft (20%) | ✅ Idiomatic Rust, tests | `cargo test` with mocked RPC (no live network), MIT license |
-| Reproducibility (15%) | ✅ One-evening setup | `install_bots.sh`, `/setup` wizard, config.json template |
-| Showcase (10%) | ✅ 3-min video | Terminal + phone, no slides, real devnet USDC |
-| Tiebreak | ✅ Build-in-public | X thread documenting daily progress |
+| Use case (30%) |  Running daily | I sell digital goods through Telegram. Real Telegram shop. |
+| Safety & custody (25%) |  T1, fail-closed, 3 guards | Prompt injection transcript, policy-as-code, SOP checkpoints |
+| Craft (20%) |  Idiomatic Rust, tests | `cargo test` with mocked RPC (no live network), MIT license |
+| Reproducibility (15%) | One-evening setup | `install_bots.sh`, `/setup` wizard, config.json template |
+| Showcase (10%) |  3-min video | Terminal + phone, no slides, real devnet USDC |
+| Tiebreak | Build-in-public | X thread documenting daily progress |
 
 ---
 
-## 📚 Documentation Index (`docs/`)
+## Documentation Index (`docs/`)
 
-- **[🏆 SUBMISSION.md](./docs/SUBMISSION.md)**: Official Superteam Bounty Submission Breakdown & Rubric Alignment.
-- **[🚀 ROADMAP_FUTURES.md](./docs/ROADMAP_FUTURES.md)**: Master 5-Year Futures Plan, Feature TODO List & Multi-Year Vision (2026-2030).
-- **[🛡️ ARCHITECTURE.md](./docs/ARCHITECTURE.md)**: Technical Architecture, WASM Plugins, & 6-Layer Security Model.
-- **[🔮 VISION.md](./docs/VISION.md)**: Strategic Expansion Roadmap & Institutional Squads Multisig Bridge.
-- **[🤖 TELEGRAM_BOT.md](./docs/TELEGRAM_BOT.md)**: Primary Channel Guide — Telegram Storefront Bot Setup, Commands, & NLU Natural Chat.
-- **[🌐 MULTI_CHANNEL.md](./docs/MULTI_CHANNEL.md)**: Secondary & Expansion Channels (Discord Slash Commands & WhatsApp Cloud API Webhook Guide).
+- **[ SUBMISSION.md](./docs/SUBMISSION.md)**: Official Superteam Bounty Submission Breakdown & Rubric Alignment.
+- **[ROADMAP_FUTURES.md](./docs/ROADMAP_FUTURES.md)**: Master 5-Year Futures Plan, Feature TODO List & Multi-Year Vision (2026-2030).
+- **[ARCHITECTURE.md](./docs/ARCHITECTURE.md)**: Technical Architecture, WASM Plugins, & 6-Layer Security Model.
+- **[ VISION.md](./docs/VISION.md)**: Strategic Expansion Roadmap & Institutional Squads Multisig Bridge.
+- **[TELEGRAM_BOT.md](./docs/TELEGRAM_BOT.md)**: Primary Channel Guide — Telegram Storefront Bot Setup, Commands, & NLU Natural Chat.
+- **[ MULTI_CHANNEL.md](./docs/MULTI_CHANNEL.md)**: Secondary & Expansion Channels (Discord Slash Commands & WhatsApp Cloud API Webhook Guide).
 
 ---
 
-## 📎 Links
+##  Links
 
 - Repo: https://github.com/thepros2014/zer0claw
 - Video: https://youtu.be/E2j8Qy2fRNQ
@@ -292,14 +292,14 @@ Dependencies: Rust toolchain, Python 3.11+, uvicorn. One evening. Verified on Wi
 - SOP configs: `docs/SOP_EXAMPLES.md`
 - Nonce strategy: `docs/NONCE_STRATEGY.md`
 
-ZeroClaw Commerce is MIT licensed. Built for Superteam Brasil × ZeroClaw Labs. Obrigado! 🇧🇷
+ZeroClaw Commerce is MIT licensed. Built for Superteam Brasil × ZeroClaw Labs. Obrigado! 
 
 ---
 
 ## Discord `#solana-bounty` Showcase Post
 
 ```text
-🦞 ZeroClaw Commerce: A Solana Payment Terminal for Telegram Shops 🇧🇷
+ ZeroClaw Commerce: A Solana Payment Terminal for Telegram Shops 
 
 Video: [5 min — terminal + phone, narrated] https://youtu.be/E2j8Qy2fRNQ
 Repo: github.com/thepros2014/zer0claw
@@ -325,5 +325,5 @@ Questions? Ping me here or @thepros2014 on X.
 Demo: youtu.be/E2j8Qy2fRNQ
 Repo: github.com/thepros2014/zer0claw
 
-@SuperteamBR @ZeroClawLabs 🇧🇷
+@SuperteamBR @ZeroClawLabs 
 ```
